@@ -1,0 +1,804 @@
+/* CSS Document */
+body, input, textarea, select, table {font-size:11px; font-family:Arial, Helvetica, sans-serif; color:#444444;}
+body, form, img {margin:0; padding:0;}
+body {text-align:center; }
+
+h1 {color:#444444; font-size:20px; margin:0 0 6px; padding:2px 0 10px 0;}
+h2 {color:#444444; font-size:16px; font-weight:bold; margin:0; padding:2px 0 4px 0; display:block;}
+h3 {color:#444444; font-size:15px; font-weight:bold; margin:0; padding:3px 0 3px 0; }
+h4 {color:#444444; font-size: 14px; font-weight: bold; margin:0 0 5px 0; padding:1px 10px 1px 0;} /* DO NOT CHANGE -- Used in promo Footers */
+h5 {color:#444444; font-size: 14px; margin:0;} 
+h6 {color:#444444; font-size:14px; font-weight:bold; margin:0;} 
+
+ul { margin-top:0; font-size:12px;} /* ADDED MAY 2012 - SD*/
+ol { margin-top:0; font-size:12px;} /* ADDED MAY 2012 - SD*/
+/* ============================================================= */
+/* =================== EXTRA TEXT and other STYLING ======================= */
+/* ============================================================= */
+
+.redBold {font-weight: bold; color: #C03;}
+.blueBold {font-weight: bold; color: #003366;}
+.brownBold {font-weight:bold; color: #66523d;}
+.greenBold {font-weight:bold; color: #067F3C;}
+.whiteBold {font-weight:bold; color: #fff;}
+.ltgreyBold {font-weight:bold; color: #eee;}
+
+.boldlg {font-size: 13px; font-weight: bold; }
+.redBoldlg {font-size: 13px; font-weight: bold;	color: #C03;}
+.blueBoldlg {font-size: 13px; font-weight: bold; color: #003366;}
+.greenBoldlg {font-size: 13px; font-weight:bold; color: #067F3C;}
+.brownBoldlg {font-size: 13px; font-weight:bold; color: #66523d;}
+.orangeBoldlg {font-size: 13px; font-weight:bold; color: #f90;}
+.whiteBoldlg {font-size: 13px; font-weight:bold; color: #fff;}
+.ltgreyBoldlg {font-size: 13px; font-weight:bold; color: #eee;}
+
+
+hr {color: #ccc; height:1px;}
+
+img {border:0;}
+p {font-size:12px; margin:0; padding:0 2px 7px;}
+a {color:#333; text-decoration:none;}
+/*a:link {color: blue; text-decoration:underline;} commented out this line - M Krecker*/
+a:link, a:visited, a:hover, a:active {color:#006699;}
+a:hover {text-decoration:underline;} /*moved this from above line 13 - M Krecker*/
+/*a:link {color: blue; text-decoration:underline;}
+a:link, a:visited {color:blue; text-decoration:underline;}a:hover, a:active {color:#399DCF;} */
+
+.clear {height:0px; clear:both;}
+.brdType01 {border:1px solid #dddddd;}
+.small {font-size:10px;}
+.def {font-size:11px;}
+.med {font-size:12px;}
+.med1 {font-size:14px;}
+.med2 {font-size:15px;}
+.med3 {font-size:17px;}
+
+.padB5 {padding-bottom:5px;}
+
+.nomar {margin:0;}
+.marB5 {margin-bottom:5px;}
+
+.brdtop {border-top:1px solid #cbc8bd;}
+.brdbot {border-bottom:1px solid #cbc8bd;}
+/*all below text-decorations changed 1/11/08 to 'none' for links and 'underline' for hover --M Krecker */
+.lnktype0 {text-decoration:none;}
+.lnktype0:hover {text-decoration:underline;}
+
+.lnktype1 {color:#555;text-decoration:none;} /* text-decoration added - M Krecker */
+.lnktype1:hover {color:#555;text-decoration:underline;}
+
+.lnktype2 {color:#424242; text-decoration:none;}
+.lnktype2:hover {text-decoration:underline;}
+
+.lnktype3 {color:#779eab; text-decoration:none;}
+.lnktype3:hover { text-decoration:underline;}
+
+.lnktype4 {color:#fff; text-decoration:none;}
+.lnktype4:hover { text-decoration:underline;}
+
+.lnktype5 {color:#779eab; text-decoration:none;}
+.lnktype5:hover { text-decoration:underline;}
+
+.txtcolor {}
+
+.lineH {line-height:18px;}
+.lineH2 {line-height:16px;}
+.lineH2 p {margin:5px 0 15px 0;}
+
+.right {float:right;}
+.left {float:left;}
+
+#main {width:980px; margin:0 auto; text-align:left;}
+	/*
+	#header {height:129px; background:url(../images/bgd_header.gif);}
+		#logo {float:left;}
+		#headright {color:#FFF; width:568px; float:left; text-align:right; margin:5px 0 0 0;}
+		#headright a {color:#FFF;}
+		#headright ul {list-style:none; margin:0 0 0 265px; padding:0; display:block;}
+		#headright li {float:left; display:inline; padding:0 10px; border-right:1px solid #fff; line-height:18px;}
+		#headright li.lastitem {border:none;}
+		#headright form {}
+		#headright form input {width:80px;}
+	*/		
+		/*START - I added this for imagemap links for redesign. Remove when beta launch is done*/		
+		#HeaderIMap1  {margin:10px 443px 0 0px; margin-bottom:8px;}
+		#HeaderIMap2  {margin:0 443px 0 0; }
+		/*FINISH*/		
+
+		#txtwelcome {margin:10px 0 0 0; padding:0; float:right; display:block;}
+		#txtwelcome img {margin:0 8px 0 15px; vertical-align:middle;}
+		
+		#menu {height:34px; display:block; clear:both; background-image:url("./images/bgd_topmenu.gif"); background-repeat:no-repeat;}
+			.bgmenu0 {background-position:0 0;}
+			.bgmenu1 {background-position:0 -34px;}
+			.bgmenu2 {background-position:0 -70px;}
+			.bgmenu3 {background-position:0 -105px;}
+			.bgmenu4 {background-position:0 -140px;}
+			.bgmenu5 {background-position:0 -175px;}									
+			.bgmenu6 {background-position:0 -210px;}
+			.bgmenu7 {background-position:0 -245px;}
+			.bgmenu8 {background-position:0 -279px;}									
+
+		#menu a {line-height:30px; display:block;}
+		#menu ul {list-style:none; margin:0;padding:0;}
+		#menu li {display:inline; float:left;}
+		#menu span {visibility:hidden;}
+		.menu1 {width:96px;}
+		.menu2 {width:131px;}
+		.menu3 {width:84px;}
+		.menu4 {width:186px;}
+		.menu5 {width:145px;}
+		.menu6 {width:131px;}
+		.menu7 {width:114px;}
+		.menu8 {width:84px;}
+		
+		.curmenu {background:#eae7df; display:block;}
+		.curmenu a {color:#333 !important;}
+		
+		.leftnavsub {list-style:none; margin:5px 8px; padding:0;}
+		.leftnavsub li {background:url("./images/li_square1.gif") no-repeat 0 5px; padding:0 5px 0 8px; margin:5px 0;}
+		.leftnavsub li a {color:#424242 !important; }
+		
+		
+	#container {margin:4px 0 0 0;}
+		#leftcont {color:#555; width:160px;}
+		#leftcont select, #leftcont input  {color:#555;}
+		#leftcont a {color:#555;}
+
+	
+		#content {position:relative;}
+		
+		.Htype1 {height:68px; _height:88px;}
+		.Htype2 {height:275px; _height:295px;}
+		.Htype3 {height:195px; _height:215px;}
+		.Htype4 {height:1070px; _height:1090px;}
+		.Htype5 {height:228px; _height:248px;}
+		.Htype6 {height:51px; _height:46px;}
+		.Htype7 {height:392px; _height:441px;}
+		.Htype8 {height:320px; _height:330px;}
+
+		
+		.padtype1 {padding:0 !important;}
+		.padtype2 {padding:2px 10px !important;}
+		.padtype3 {padding:10px !important;}
+		.padtype4 {padding-left:5px !important;}
+		
+		.txtcolor0 {color:#ffffff;}
+		.txtcolor1 {color:#424242;}
+		.txtcolor2 {color:#c3274e;}
+		.txtcolor3 {color:#5e92a3;}
+		
+		.bgcolor1 {background:#FFF;}/* white */
+		.bgcolor2 {background:#84001c;}/* dark red */
+		.bgcolor3 {background:#cc002e;}/* light red */		
+		.bgcolor4 {background:#A3A9AB;}/* light teal */
+		.bgcolor5 {background:#e1ddd1 !important;}/* dark beige */
+		.bgcolorLtGrey {background:#eeeeee !important;}
+		.bgcolorDkGrey {background:#454546 !important;}
+		.imbrd {border:1px solid #d2dee2;}
+		
+	.formType01 {margin:5px 5px 5px 7px;}
+	.formType01 img {vertical-align:middle;}
+	.formType01 input {width:130px; margin:2px 0;}
+	.formType01 select {width:133px; margin:2px 0;}
+
+	/*Form top header login*/
+	#frmtoplogin {margin:5px 20px 0 0;}
+	#frmtoplogin input {margin:0 5px 0 0;}
+	#frmtoplogin img {margin:0 2px 3px 0; vertical-align:middle;}
+
+	.infoType01 {margin:5px 5px 5px 7px;}
+	
+	.infoType02 {padding:15px 5px 0 0;} /* Used in promo boxes at page bottom */
+
+	.listType01 {list-style:none; padding:0; margin:0;}
+	.listType01 li {margin:4px 0;}
+	
+	.listType02 { list-style-type:square !important; list-style-position:outside; margin:0 0 0 15px; padding:0; float:none;}
+	.listType02 li { list-style-type:square; margin:5px 0; padding:0 0 0 5px; float:none;}
+	
+	.listType03 {list-style:none; margin:0; padding:0; position:absolute; left:10px; top:0;}
+	.listType03 li {float:left; padding:7px 20px; margin:0 5px 0 0;}		
+	.listType03 a {text-decoration:none !important;}
+		.nortab {border:1px solid #cccbc8; border-width:1px 1px 0 1px; background:#ccc; font-weight:bold;}/* originally was background:#c8c5b9;*/
+		.nortab span {color:#FFF; background:url("./images/li_arrow3.gif") right center no-repeat !important; display:block; padding:0 8px 0 0 ;}
+		.acttab {border:1px solid #cccbc8; border-width:1px 1px 0 1px; background:#fff; font-weight:bold;}
+		.acttab span {background:url("./images/li_arrow1.gif") right center no-repeat !important; display:block; padding:0 8px 0 0 ;}
+
+	/**/
+	.tabcont {border:1px solid #cccbc8; clear:both; margin-top:-1px; width:99.5%;}
+
+
+
+	/*left style*/
+	/*I had to make a change with .contType01 (padding:top right bottom left)*/
+	.contType01 {padding:8px 3px 8px 4px;}
+	.contType01 p {margin:0 0 5px 0; padding-left:6px;}
+	.contType01 a {text-decoration:none !important;}
+	.contType01 a:hover {text-decoration:underline !important;}
+	.contTypeCommitteeHeading {font-size:14px; }
+	.contTypeCommitteeLinks {font-size:12px; }
+
+	.bgType01 {background:#f4f3ef; border-top:1px solid #ddd;}
+	.bgType02 {color:#333333; background:#e8e5dc; }
+	
+	.contType02 {border-top:1px solid #cccbc8; padding:10px 0 0 0; margin:5px 0 0 0;}
+	.contType03 {padding:10px 0 0 0; background:#fff;}
+	.contType04 {background:#f0efe8; padding:10px; border-top:5px solid #FFF;}
+	
+	/*breadcum*/	
+	/*I had to make a change with .breadcum (padding) & (line-height) */
+	.breadcum { height:21px; line-height:20px; padding:6px 15px; margin:0 0 3px 0; background:url("./images/bgd_breadcum.gif") repeat-x; }
+	.breadcum_right { text-align:right; height:21px; line-height:20px; margin:-20px 0 3px 0;  }
+
+	/*text banner on section headers of all inside pages*/
+	.txtbanner {height:30px; margin: 0 0 6px 0; background-image:url(./images/section-header-bg.jpg)}
+	.txtbanner p {margin: 0; padding: 6px 10px 0; color:#fff; font-size: 15px; font-weight:bold; }	
+	/* PubStore Cart */
+	.cart {float:right; display:inline; height:31px; margin-top:-31px; _margin-top:-25px;  padding:0 13px 0 0;}
+	.cart img { vertical-align:middle;}
+	
+	/*text banner on left column */
+	.leftTxtBanner {height:24px; margin: 0; background-color:#eee; border-bottom: solid 1px #ddd;}
+	.leftTxtBanner p {margin: 0; padding: 4px 2px 1px 4px; font-size: 14px; font-weight: bold; color:#7979;}
+	
+	/* INDEX CONTENT */
+	.inxNews {padding:8px 10px 5px 10px; font-size:12px;}
+	.homemainpic {margin:0 0 6px 0;}
+	.floatbox {position:absolute; left:635px; top:22px;}
+	.homecont {background:url("./images/bgd_homeidx.gif") repeat-y; height:1%;}
+	
+	/* Start - Increase font size to the homepage - New areas on bottom half of page. */
+	.NewPubsArea {font-size:12px;}
+	/* Finish - Increase font size to the homepage - New areas on bottom half of page. */	.featuremem {padding:5px; background:#d2dee2; text-align:center;}
+	
+	.tblType01 th {color:#FFF; font-size:11px; font-weight:bold; text-transform:uppercase; text-align:left; }
+	
+	/* Result Stat*/
+	.resultstat {margin:10px 0;padding:8px; width:99%;}
+	
+	/*Find an appraiser result*/
+	.readprofile {padding-left:10px; text-align:center;}
+	
+	/*Table Benefit revise*/
+	.tblType02 th {text-align:left; background:#779eab;}
+	.tblType02 td {padding:8px 5px;}
+	.bgcolor6 {background:#f4f3ef;}
+	.bgcolor7 {background:#eae7df;}
+	.brdR {border-right:3px solid #FFF;}
+	.brdB {border-bottom:3px solid #FFF;}
+	.brdR2 {border-right:1px solid #eeedea;}
+	.brdB2 {border-bottom:1px solid #cccbc8;}
+	
+	
+	/*Search Block under banner*/
+	.blockType01 {padding: 0 0 4px 0;}
+	.blockType02 {width:99%; padding:5px 0;}
+	.blockType03 {position:relative; padding:29px 0 0 0;}
+	
+	.tblType03 h3 {padding:5px 0 5px 10px;}
+	.designLearn {background:#E1DDD1;}
+	.designLearn img {margin:0 10px;}
+	
+	.tblType04 {background:#cc002e; color:#FFF;}
+	.tblType04 input, .tblType04 select {width:100px;}
+		.inputwide {width:170px;}
+		.inputwide2 {width:100px;}
+		.inputwide3 {width:283px;}
+
+	
+	/*Paging*/
+	.paging {}
+	.paging a {color:#555; padding:0 2px;}
+	.paging .med {padding:0 2px;}
+	.paging img {vertical-align:middle;}
+	.pagenum { padding:0 30px 0 0;}
+	
+	.tblType05 input, .tblType05 select {margin:0 5px 0 0;}
+	
+	#footer {color:#424242; text-align:center; padding:5px 0 0 0; font-size:10px;}
+	#footer .divim, #footer .footAdv {display:block; padding:0 0 8px 0; margin:0 0 10px 0; border-bottom: 1px solid #938d77;}
+	#footer ul {list-style:none; margin:0 0 5px 0; padding:0;}
+	#footer li {list-style:none; display:inline; border-right:1px solid #938d77;}
+	#footer li.lastitem {border:none;}
+	#footer li a {color:#424242; padding:0 8px;}
+	#footer .copyright {font-size:9px; margin:10px 0;}
+#main2 {font-size:12px; background:#fff;}	
+.topformtxtbx {font-size:11px;}
+
+/*
+
+.accordionContent
+{
+    font-weight:bold;
+    font-size:11px;
+    BORDER-RIGHT: #2f4f4f 1px solid;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: #2f4f4f 1px solid;
+    PADDING-TOP: 10px;
+    BORDER-BOTTOM: #2f4f4f 1px solid;
+    BACKGROUND-COLOR: #d3deef
+}
+.accordionContent2
+{
+    font-weight:bold;
+    font-size:11px;
+    BORDER-RIGHT: #2f4f4f 1px solid;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: #2f4f4f 1px solid;
+    BORDER-BOTTOM: #2f4f4f 1px solid;
+    BACKGROUND-COLOR: #ffffff;
+    PADDING-TOP: 10px;
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+}
+.accordionHeader
+{
+    BORDER-RIGHT: #2f4f4f 1px solid;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: #2f4f4f 1px solid;
+    MARGIN-TOP: 5px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 5px;
+    BORDER-LEFT: #2f4f4f 1px solid;
+    CURSOR: pointer;
+    COLOR: white;
+    PADDING-TOP: 5px;
+    BORDER-BOTTOM: #2f4f4f 1px solid;
+    FONT-FAMILY: Arial, Sans-Serif;
+    BACKGROUND-COLOR: #2e4d7b
+}
+.accordionHeader2
+{
+    BORDER-RIGHT: #2f4f4f 1px solid;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: #2f4f4f 1px solid;
+    MARGIN-TOP: 5px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 5px;
+    BORDER-LEFT: #2f4f4f 1px solid;
+    CURSOR: pointer;
+    COLOR: black;
+    PADDING-TOP: 5px;
+    BORDER-BOTTOM: #2f4f4f 1px solid;
+    FONT-FAMILY: Arial, Sans-Serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.accordionHeaderSelected
+{
+    BORDER-RIGHT: #2f4f4f 1px solid;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: #2f4f4f 1px solid;
+    MARGIN-TOP: 5px;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    PADDING-BOTTOM: 5px;
+    BORDER-LEFT: #2f4f4f 1px solid;
+    CURSOR: pointer;
+    COLOR: white;
+    PADDING-TOP: 5px;
+    BORDER-BOTTOM: #2f4f4f 1px solid;
+    FONT-FAMILY: Arial, Sans-Serif;
+    BACKGROUND-COLOR: #2e4d7b
+}
+.demoarea
+{
+    PADDING-RIGHT: 20px;
+    PADDING-LEFT: 20px;
+    BACKGROUND: url(images/demotop.png) #fff no-repeat left top;
+    PADDING-BOTTOM: 20px;
+    PADDING-TOP: 20px
+}
+.demoarea P
+{
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 5px;
+    PADDING-TOP: 5px
+}
+.demoheading
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 1.5em;
+    PADDING-BOTTOM: 20px;
+    COLOR: #5377a9;
+    FONT-FAMILY: Arial, Sans-Serif
+}
+.demobottom
+{
+    BACKGROUND: url(images/demobottom.png) #fff no-repeat left bottom;
+    HEIGHT: 8px
+}
+*/	
+
+
+
+/****************************************************/
+/****************************************************/
+/********  FOR PAGES USING SPRY ACCORDION   *********/
+/****************************************************/
+/****************************************************/
+
+/* web pages using these styles include:
+/PPC/ethics.aspx 
+*
+*
+*
+*/
+
+/* SpryAccordion.css - version 0.4 - Spry Pre-Release 1.6.1 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/* This is the selector for the main Accordion container. For our default style,
+ * we draw borders on the left, right, and bottom. The top border of the Accordion
+ * will be rendered by the first AccordionPanelTab which never moves.
+ *
+ * If you want to constrain the width of the Accordion widget, set a width on
+ * the Accordion container. By default, our accordion expands horizontally to fill
+ * up available space.
+ *
+ * The name of the class ("Accordion") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style the
+ * Accordion container.
+ */
+.Accordion {
+	border-left: solid 1px #656565;
+	border-right: solid 1px #333;
+	border-bottom: solid 1px #656565;
+	overflow: hidden;
+}
+
+
+.Accordion p { padding: 10px 10px 3px 10px;}
+
+
+/* This is the selector for the AccordionPanel container which houses the
+ * panel tab and a panel content area. It doesn't render visually, but we
+ * make sure that it has zero margin and padding.
+ *
+ * The name of the class ("AccordionPanel") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style an
+ * accordion panel container.
+*/
+.AccordionPanel {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* The AccordionPanelTab container houses the title for the panel. This is also the container that the user clicks
+ * on to open a specific panel.
+ *
+ * The name of the class ("AccordionPanelTab") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style an
+ * accordion panel tab container.
+ *
+ * NOTE:
+ * This rule uses -moz-user-select and -khtml-user-select properties to prevent the
+ * user from selecting the text in the AccordionPanelTab. These are proprietary browser
+ * properties that only work in Mozilla based browsers (like FireFox) and KHTML based
+ * browsers (like Safari), so they will not pass W3C validation. If you want your documents to
+ * validate, and don't care if the user can select the text within an AccordionPanelTab,
+ * you can safely remove those properties without affecting the functionality of the widget.
+ */
+.AccordionPanelTab {
+	background-color: #ddd;
+	border-top: solid 1px #656565;
+	border-bottom: solid 1px #777;
+	margin: 0px;
+	padding: 2px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+/* This is the selector for a Panel's Content area. It's important to note that
+ * you should NEVER PUT ANY PADDING ON THE PANEL'S CONTENT AREA if you plan to
+ * use the Accordions panel animations. Placing a non-zero padding on the content
+ * area can cause the accordion to abruptly grow in height while the panels animate.
+ *
+ * Anyone who styles an Accordion *MUST* specify a height on the Accordion Panel
+ * Content container.
+ *
+ * The name of the class ("AccordionPanelContent") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style an
+ * accordion panel content container.
+ */
+.AccordionPanelContent {
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+	height: 240px;
+}
+
+/* This is an example of how to change the appearance of the panel tab that is
+ * currently open. The class "AccordionPanelOpen" is programatically added and removed
+ * from panels as the user clicks on the tabs within the Accordion.
+ */
+.AccordionPanelOpen .AccordionPanelTab {
+	background-color: #fff;
+}
+
+/* This is an example of how to change the appearance of the panel tab as the
+ * mouse hovers over it. The class "AccordionPanelTabHover" is programatically added
+ * and removed from panel tab containers as the mouse enters and exits the tab container.
+ */
+.AccordionPanelTabHover {
+	color: #444;
+}
+.AccordionPanelOpen .AccordionPanelTabHover
+{
+    color: #444;
+    background-color: #a0bbc4;
+}
+
+/* This is an example of how to change the appearance of all the panel tabs when the
+ * Accordion has focus. The "AccordionFocused" class is programatically added and removed
+ * whenever the Accordion gains or loses keyboard focus.
+ */
+.AccordionFocused .AccordionPanelTab {
+
+}
+
+/* This is an example of how to change the appearance of the panel tab that is
+ * currently open when the Accordion has focus.
+ */
+.AccordionFocused .AccordionPanelOpen .AccordionPanelTab {
+
+}
+
+/*************END ACCORDION STYLES ************/
+
+/*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*/
+
+
+/****************************************************/
+/****************************************************/
+/******* FOR PAGES USING SPRY TABBED PANELS *********/
+/****************************************************/
+/****************************************************/
+
+
+/*FOR PAGES USING SPRY TABBED PANELS
+*These are usually horizontal. The Vertical option is defined at the end of this section
+* web pages using these styles include:
+* /membership/guides_demo.aspx 
+*
+*
+*
+*/
+
+/* SpryTabbedPanels.css - version 0.4 - Spry Pre-Release 1.6.1 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/* Horizontal Tabbed Panels
+ *
+ * The default style for a TabbedPanels widget places all tab buttons
+ * (left aligned) above the content panel.
+ */
+
+/* For our default style, the main TabbedPanels container does not contribute anything visually,
+ * but it is floated left to make sure that any floating or clearing done
+ * with any of its child elements are contained completely within the
+ * TabbedPanels container, to minimize any impact or undesireable
+ * interaction with other floated elements on the page that may be used
+ * for layout.
+ *
+ * If you want to constrain the width of the TabbedPanels widget, set a
+ * width on the TabbedPanels container. By default, the TabbedPanels widget
+ * expands horizontally to fill up available space.
+ *
+ * The name of the class ("TabbedPanels") used in this selector is not
+ * necessary to make the widget function. You can use any class name you
+ * want to style the TabbedPanels container.
+ */
+.TabbedPanels {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	clear: none;
+	width: 100%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+
+/*  The TabGroup container houses
+ * all of the tab buttons for each tabbed panel in the widget. This container
+ * does not contribute anything visually to the look of the widget for our
+ * default style.
+ *
+ * The name of the class ("TabbedPanelsTabGroup") used in this selector is not
+ * necessary to make the widget function. You can use any class name you
+ * want to style the TabGroup container.
+ */
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* TabbedPanelsTab container houses the title for the panel. This is also the tab "button" that the user clicks
+ * on to activate the corresponding content panel so that it appears on top
+ * of the other tabbed panels contained in the widget.
+ *
+ * For our default style, each tab is positioned relatively 1 pixel down from
+ * where it wold normally render. This allows each tab to overlap the content
+ * panel that renders below it. Each tab is rendered with a 1 pixel bottom
+ * border that has a color that matches the top border of the current content
+ * panel. This gives the appearance that the tab is being drawn behind the
+ * content panel.
+ *
+ * The name of the class ("TabbedPanelsTab") used in this selector is not
+ * necessary to make the widget function. You can use any class name you want
+ * to style this tab container.
+ */
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	float: left;
+	padding: 4px 10px;
+	margin: 0px 1px 0px 0px;
+	font: bold 1em sans-serif;
+	background-color: #DDD;
+	list-style: none;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #999;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+}
+
+/* This selector is an example of how to change the appearnce of a tab button
+ * container as the mouse enters it. The class "TabbedPanelsTabHover" is
+ * programatically added and removed from the tab element as the mouse enters
+ * and exits the container.
+ */
+.TabbedPanelsTabHover {
+	background-color: #CCC;
+}
+
+/* This selector is an example of how to change the appearance of a tab button
+ * container after the user has clicked on it to activate a content panel.
+ * The class "TabbedPanelsTabSelected" is programatically added and removed
+ * from the tab element as the user clicks on the tab button containers in
+ * the widget.
+ *
+ * As mentioned above, for our default style, tab buttons are positioned
+ * 1 pixel down from where it would normally render. When the tab button is
+ * selected, we change its bottom border to match the background color of the
+ * content panel so that it looks like the tab is part of the content panel.
+ */
+.TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: 1px solid #EEE;
+}
+
+/* This selector is an example of how to make a link inside of a tab button
+ * look like normal text. Users may want to use links inside of a tab button
+ * so that when it gets focus, the text *inside* the tab button gets a focus
+ * ring around it, instead of the focus ring around the entire tab.
+ */
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+
+/* This is the selector for the ContentGroup. The ContentGroup container houses
+ * all of the content panels for each tabbed panel in the widget. For our
+ * default style, this container provides the background color and borders that
+ * surround the content.
+ *
+ * The name of the class ("TabbedPanelsContentGroup") used in this selector is
+ * not necessary to make the widget function. You can use any class name you
+ * want to style the ContentGroup container.
+ */
+.TabbedPanelsContentGroup {
+	clear: both;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	background-color: #EEE;
+}
+
+/* The Content panel holds the content for a single tabbed panel. For our default style, this container
+ * provides some padding, so that the content is not pushed up against the
+ * widget borders.
+ *
+ * The name of the class ("TabbedPanelsContent") used in this selector is
+ * not necessary to make the widget function. You can use any class name you
+ * want to style the Content container.
+ */
+.TabbedPanelsContent {
+	padding: 4px;
+}
+
+/* This selector is an example of how to change the appearnce of the currently
+ * active container panel. The class "TabbedPanelsContentVisible" is
+ * programatically added and removed from the content element as the panel
+ * is activated/deactivated.
+ */
+.TabbedPanelsContentVisible {
+}
+
+/* Vertical Tabbed Panels (optional)
+ *
+ * The following rules override some of the default rules above so that the
+ * TabbedPanels widget renders with its tab buttons along the left side of
+ * the currently active content panel.
+ *
+ * With the rules defined below, the only change that will have to be made
+ * to switch a horizontal tabbed panels widget to a vertical tabbed panels
+ * widget, is to use the "VTabbedPanels" class on the top-level widget
+ * container element, instead of "TabbedPanels".
+ */
+
+/* This selector floats the TabGroup so that the tab buttons it contains
+ * render to the left of the active content panel. A border is drawn around
+ * the group container to make it look like a list container.
+ */
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+
+/* This selector disables the float property that is placed on each tab button
+ * by the default TabbedPanelsTab selector rule above. It also draws a bottom
+ * border for the tab. The tab button will get its left and right border from
+ * the TabGroup, and its top border from the TabGroup or tab button above it.
+ */
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+/* This selector disables the float property that is placed on each tab button
+ * by the default TabbedPanelsTab selector rule above. It also draws a bottom
+ * border for the tab. The tab button will get its left and right border from
+ * the TabGroup, and its top border from the TabGroup or tab button above it.
+ */
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+
+/* This selector floats the content panels for the widget so that they
+ * render to the right of the tabbed buttons.
+ */
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+
+
